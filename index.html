@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/all.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+<body>
+    <!----------------------- startHeader ----------------------->
+    
+    <nav class="navbar navbar-expand-lg bg-secondary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img class="myLogo" src="images/myLogo.png" alt="myLogo">
+        </a>
+        <div class="ver-Line"></div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Courses
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Python</a></li>
+                  <li><a class="dropdown-item" href="#">HTML</a></li>
+                  <li><a class="dropdown-item" href="#">CSS3</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">JavaSript</a></li>
+                </ul>
+              </li>
+            
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn search01" type="submit">Search</button>
+            
+          </form>
+          <button class="btn btn-outline-success myLogin" type="submit">Login</button>
+        </div>
+      </div>
+    </nav>
+  
+<!---------------------------- FirstPat slide ------------------------------------>
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/first01.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Our office</h5>
+          <button class="btn-bt01"> View Course</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/first02.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Python Courses</h5>
+          <button class="btn-bt01"> View Course</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/first03.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>HTML Courses</h5>
+          <button class="btn-bt01"> View Course</button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!----------------------------- SecondPart slides --------------------->
+  <div class="welcome-01">
+    <div class="wel-cont">
+      <h1>Welcome</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut quod dolor 
+      vel ad est eos maiores ipsa expedita iste amet nisi natus qui!</p>
+
+      <button>submit</button>
+    </div>
+
+  </div>
+
+
+<!----------------------  Fourth Part -->
+
+  <div class="jumbtron0-1">
+    <h3 class="jumb-hader">Programming language</h3>
+    <select class="form-select" aria-label="Default select example">
+       <option selected>Python Langoage</option>
+       <option value="1">Python is powerful... and fast, plays well with others,runs everywhere, 
+        is friendly & easy to learn, is Open.</option>
+    </select>
+
+    <select class="form-select" aria-label="Default select example">
+      <option selected>JavaSript Langoage</option>
+      <option value="1">JavaSript is powerful... and fast, plays well with others,runs everywhere, 
+       is friendly & easy to learn, is Open.</option>
+   </select>
+   <select class="form-select" aria-label="Default select example">
+    <option selected>HTML Langoage</option>
+    <option value="1">JavaSript is powerful... and fast, plays well with others,runs everywhere, 
+     is friendly & easy to learn, is Open.</option>
+  </select>
+
+  </div><!-- jumbtron0-1 -->
+
+<!------------------------  Learning Python, HTML, JavaScript -------------------------->
+<div class="Learning-python">
+  <h1>Python is very easy</h1>
+  <p>try the code below from <span><a href="https://www.python.org/shell/">here</a></span></p>
+  <button>Copy</button>
+  
+  <div class="my-code">
+    name = input('enter your name: '); print("Hello" + name)
+  </div><!-- my-code -->
+</div><!-- Learning-python -->
+<!-------------------- HTML ------------------------------->
+<div class="Learning-python">
+  <h1>HTML is very easy</h1>
+  <p>try the code below from <span><a href="https://www.w3schools.com/html/default.asp">here</a></span></p>
+  <button>Copy</button>
+  
+  <div class="my-code">
+    name = input('enter your name: '); print("Hello" + name)
+  </div><!-- my-code -->
+</div><!-- Learning-python -->
+<!-------------------- JavaSript ------------------------------->
+<div class="Learning-python">
+  <h1>JavaScript is very easy</h1>
+  <p>try the code below from <span><a href="https://www.w3schools.com/js/default.asp">here</a></span></p>
+  <button>Copy</button>
+  
+  <div class="my-code">
+    name = input('enter your name: '); print("Hello" + name)
+  </div><!-- my-code -->
+</div><!-- Learning-python -->
+
+<!--------------------------Good Clacic ----------------------->
+<div class="f-with"></div>
+
+<!--------------------------Good Clacic ----------------------->
+<div class="f-gray">
+  <h1>Good Classic</h1>
+</div>
+
+<!----------------------- ICONS  ------------------------------->
+
+<div class="cardsIcon">
+              <div class="row"> <!-- first-row -->
+                <div class="col-md-1 col-lg-3">
+                <div class="card" style="width: 18rem;"> <!-- card01 -->
+                  <img src="images/HTML.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h2 class="card-title">HTML</h2>
+                    <p class="card-text">Shtml from zero to hero.</p>
+                    <a href="#" class="btn btn-primary">download the Book</a>
+                  </div>
+                </div><!-- card" -->
+              </div>
+            <!-------------------------card2 -------------------->
+            <div class="col-md-1 col-lg-3">
+            <div class="card" style="width: 18rem;"> <!-- card01 -->
+              <img src="images/css.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h2 class="card-title">HTML</h2>
+                <p class="card-text">Shtml from zero to hero.</p>
+                <a href="#" class="btn btn-primary">download the Book</a>
+              </div>
+            </div><!-- card" -->
+            </div>
+          <!-------------------------card3 -------------------->
+          <div class="col-md-1 col-lg-3">
+          <div class="card" style="width: 18rem;"> <!-- card01 -->
+            <img src="images/JS.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h2 class="card-title">HTML</h2>
+              <p class="card-text">Shtml from zero to hero.</p>
+              <a href="#" class="btn btn-primary">download the Book</a>
+            </div>
+          </div><!-- card" -->
+        </div>
+          <!-------------------------card3-------------------->
+          <div class="col-md-1 col-lg-3">
+          <div class="card" style="width: 18rem;"> <!-- card01 -->
+            <img src="images/JAVA.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h2 class="card-title">HTML</h2>
+              <p class="card-text">Shtml from zero to hero.</p>
+              <a href="#" class="btn btn-primary">download the Book</a>
+            </div>
+          </div><!-- card" -->
+        </div>
+
+    </div> <!-- row 01 -->
+
+    <!-------------- row02 --------------------------->
+
+    <div class="row"> <!-- first-row -->
+            <div class="col-md-1 col-lg-3">
+              <div class="card" style="width: 18rem;"> <!-- card01 -->
+                <img src="images/python.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h2 class="card-title">Python</h2>
+                  <p class="card-text">Shtml from zero to hero.</p>
+                  <a href="#" class="btn btn-primary">download the Book</a>
+                </div>
+              </div><!-- card" -->
+            </div>
+          <!-------------------------card2 -------------------->
+          <div class="col-md-1 col-lg-3">
+          <div class="card" style="width: 18rem;"> <!-- card01 -->
+            <img src="images/bootstrap.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h2 class="card-title">bootstrap</h2>
+              <p class="card-text">Shtml from zero to hero.</p>
+              <a href="#" class="btn btn-primary">download the Book</a>
+            </div>
+          </div><!-- card" -->
+        </div>
+        <!-------------------------card3 -------------------->
+
+        <div class="col-md-1 col-lg-3">
+        <div class="card" style="width: 18rem;"> <!-- card01 -->
+          <img src="images/JAVA.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h2 class="card-title">JAVA</h2>
+            <p class="card-text">Shtml from zero to hero.</p>
+            <a href="#" class="btn btn-primary">download the Book</a>
+          </div>
+        </div><!-- card" -->
+        
+      </div>
+        <!-------------------------card3-------------------->
+      <div class="col-md-1 col-lg-3">
+        <div class="card" style="width: 18rem;"> <!-- card01 -->
+          <img src="images/json.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h2 class="card-title">JSON</h2>
+            <p class="card-text">Shtml from zero to hero.</p>
+            <a href="#" class="btn btn-primary">download the Book</a>
+          </div>
+        </div><!-- card" -->
+      </div>
+
+    </div> <!-- row02-->
+  
+</div><!-- cardIcon -->
+
+
+<!------------------------------- imageSeparated ------------------------->
+<div class="sapratedimg"></div>
+
+<!------------------------------ Thanks For ---------------------->
+<div class="thanksFor">
+<div class="container">
+  <h1>Thanks For</h1>
+  <div class="row">
+  
+  <div class="col-md-1 col-lg-4"> <!-- ---01 -->
+    <div class="card" style="width: 18rem;">
+      <img src="images/firstMan.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Steph Deo.</p>
+      </div>
+    </div> 
+  </div> 
+
+
+  <div class="col-md-1 col-lg-4"> 
+    <div class="card" style="width: 18rem;">
+      <img src="images/firstMan2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Steph Deo.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-1 col-lg-4"> <!-- ---03 -->
+    <div class="card" style="width: 18rem;">
+      <img src="images/firstMan03.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Steph Deo.</p>
+      </div><!-- card-body -->
+    </div><!-- card -->
+  </div><!-- cal03 -->
+
+</div> <!-- row -->
+</div><!-- Container -->
+</div> <!-- forThanks -->
+
+<!------------------------------ Join Us -------------------->
+<div class="socialMedia">
+    
+    <div class="container">
+      <h1>Join Us</h1>
+    <div class="row">
+    
+        <div class="col-md-6 col-lg-4 fac">
+          <h5>Subscribe Now</h5>
+          <i class="fab fa-facebook"></i>
+          <button>Go to Link</button>
+        </div><!-- fac 01-->
+
+    <div class="col-md-6 col-lg-4 fac">
+      <h5>Subscribe Now</h5>
+      <i class="fab fa-twitter"></i>
+      <button>Go to Link</button>
+    </div><!-- fac 02-->
+
+    <div class="col-md-6 col-lg-4 fac">
+      <h5>Subscribe Now</h5>
+      <i class="fab fa-instagram-square"></i>
+      <button>Go to Link</button>
+    </div><!-- fac 03-->
+  
+    <div class="col-md-6 col-lg-4 fac">
+      <h5>Subscribe Now</h5>
+      <i class="fab fa-linkedin"></i>
+      <button>Go to Link</button>
+    </div><!-- fac 04-->
+  
+  </div><!-- row -->
+</div>
+</div><!-- socialMedia -->
+
+<!--------------------- FooterSection ------------------->
+
+<div class="footer">
+  
+  <div class="container">
+    <div class="row">
+     
+      <div class="col-md-6 col-lg-4">
+        <h3><i class="fab fa-facebook myIcon"></i>Good Company</h3>
+        <h5>Tel : 000-000-000</h5>
+        <p class="h5">Address : EGYPT</p>
+        <span>Fax : 000-000-000</span>
+      </div><!-- cal cal-md-4 -->
+      
+      <!------------ 02 ------------>
+      <div class="col-md-6 col-lg-4">
+        <h3><i class="fab fa-facebook myIcon"></i>Important links</h3>
+        <p><a href="#">Take alook</a></p>
+        <span><a href="#">Your health is more important</a></span>
+      </div><!-- cal cal-md-4 -->
+      
+      <!------------ 03 ------------>
+      <div class="col-md-6 col-lg-4">
+        <h3><i class="fab fa-facebook myIcon"></i>Vision</h3>
+        <h5>Serveices for all</h5>
+        <p>Provide best serveices</p>
+        <span>you will be better than before</span>
+      </div><!-- cal cal-md-4 -->
+      
+    </div><!-- row -->
+  </div><!-- container -->
+      
+  
+</div><!-- footer -->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
